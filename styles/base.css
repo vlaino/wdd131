@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Protest+Riot&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+:root {
+    --primary-color: #aa8f8f;
+    --secondary-color: #50567e;
+    --accent1-color: #e2ef94;
+    --accent2-color: #e8c5e0;
+    --accent3-color:#878787;
+
+    --main-font: "Protest Riot", sans-serif;
+    --secondary-font: "Libre Franklin";
+
+    --nav-background-color: #eceda6;
+    --nav-link-color: #000000;
+    --nav-hover-link-color: #ec4010;
+}
+
+body {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #f9f9f7;
+}
+
+h1 {
+    font-family: var(--main-font);
+    color: var(--accent1-color);
+}
+
+a {
+    font-family: var(--secondary-color);
+}
+
+header{
+    display: block;
+    text-align: center;
+    background-color: var(--primary-color);
+    width: auto;
+    padding: 20px 0 0 0;
+}
+
+header h1 {
+    display: inline-flex;
+    margin-bottom: 50px;
+}
+
+header h2, h2, h3 {
+    color:rgb(85, 75, 62);
+    font-family: var(--secondary-font);
+}
+
+header nav {
+    color: var(--nav-background-color);
+    text-decoration: none;
+    padding: 1rem;
+    width: auto;
+    font-size: 1.2rem;
+}
+
+nav a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+    width: auto;
+    font-size: 1.2rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color)
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+main {
+    display: grid;
+    gap: 10px;
+    grid-auto-columns: 3fr 1fr;
+    grid-auto-rows: 4fr 1fr;
+    padding: 10px;
+    max-width: fit-content;
+    font-family: var(--secondary-font);
+}
+
+.card1 {
+    display: grid;
+    grid-column: 1/5;
+    grid-row: 1/4;
+    background-color: #edd0dd;
+    grid-auto-columns: 1fr 5fr;
+    grid-auto-rows: auto;
+    gap: 5px;    
+    border: solid 2px var(--secondary-color);
+}
+
+.card1 h2 {
+    grid-row: 1;
+    grid-column: 1/3;
+    text-align: center;
+    margin: 0;
+}
+
+#photo {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+#aboutme {
+    padding-left: 20px;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.card1 h3 {
+    grid-row: 3;
+    grid-column: 1/3;
+    margin: 0;
+    text-align: center;
+}
+
+.card2 {
+    display: grid;
+    padding: 10px;
+    grid-column: 5;
+    grid-row: 1/4;
+    text-align: center;
+    border: solid 2px var(--secondary-color);
+    background-color: #edd0dd;
+}
+
+.card2 h2 {
+    color:var(--primary-color);
+}
+
+.card2 nav {
+    display: flex;
+    flex-direction: column;
+}
+
+#about {
+    padding-right: 20px;
+}
+
+footer {
+    background-color: var(--accent2-color);
+    text-align: center;
+    font-family: var(--main-font);
+    color: var(--primary-color);
+}
