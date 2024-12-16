@@ -1,0 +1,60 @@
+:root {
+    --oxford-blue: #0a1128ff;
+    --penn-blue: #001f54ff;
+    --indigo-dye: #034078ff;
+    --cerulean: #1282a2ff;
+    --white: #fefcfbff;
+
+    --Franklin-font-family: "Libre Franklin", sans-serif;
+    --Franklin-font-weight: 400;
+    --Franklin-font-style: normal;
+
+    --Protest-font-family: "Protest Riot", sans-serif;
+    --Protest-font-weight: 400;
+    --Protest-font-style: normal;
+
+
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    place-items: center;
+
+}
+
+h2 {
+    color: var(--penn-blue);
+}
+
+p {
+    color: var(--oxford-blue);
+}
+
+
+.title {
+    font-family: var(--Protest-font-family);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.headfoot,
+.paragraph {
+    font-family: var(--Franklin-font-family);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.header,
+.footer {
+    width: 200px;
+    height: 30px;
+    background-color: var(--indigo-dye);
+    text-align: center;
+    color: white;
+}
+
+img {
+    width: 50%;
+}
