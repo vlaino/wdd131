@@ -1,53 +1,51 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    const aboutMyself = document.querySelector('.about-myself');
-    if (aboutMyself) {
-        const aboutMyselfContent = `
-            <h2>Transitioning to Software Development</h2>
+    const aboutBusiness = document.querySelector('.about-business');
+    if (aboutBusiness) {
+        const aboutBusinessContent = `
+            <h2>We are...</h2>
             <p>
-                With a solid background in managing complex digital operations and customer service systems, I am
-                eager to transition into software development.
+                We are a group of professionals with more than 10 years of experience in the construction industry. 
+                We have decided to unite our skills and knowledge to begin this project with the aim of offering high-quality 
+                construction services and meeting the needs of our clients.   
             </p> 
             <p>
-                My experience at Bancolombia Panamá S.A. involved
-                overseeing digital operations, resolving escalated client queries, and ensuring high-quality
-                standards, all of which honed my problem-solving and technical skills.
+               We are passionate about creating functional, safe 
+                and aesthetically appealing spaces, and we are committed to providing a personalized and reliable service in 
+                each project we work on.
             </p>     
             <p>
-                At BAC International Bank, I managed Oracle's Siebel CRM and IBM AS/400 systems, providing solutions across multiple channels and
-                maintaining organized information systems. 
+                Our extensive experience has allowed us to develop a collaborative and 
+                customer-focused approach, where we listen carefully to your needs and offer you innovative and efficient 
+                solutions. 
             </p>
             <p>    
-                These roles have equipped me with a keen attention to
-                detail, operational management expertise, and a strong foundation in IT systems, positioning me well
-                for a career in software development.
+                We are committed to excellence in every detail and strive to exceed expectations in every project 
+                we undertake.
             </p>
         `;
-        aboutMyself.innerHTML = aboutMyselfContent;
+        aboutBusiness.innerHTML = aboutBusinessContent;
     }
 
-    const education = document.querySelector('.education');
-    if (education) {
-        const educationContent = `
-            <h2>Education</h2>
+    const team = document.querySelector('.team');
+    if (team) {
+        const teamContent = `
+            <h2>Team</h2>
             <p>
-                Currently pursuing a B.S. in Software Development at Brigham Young University - Idaho, I am gaining
-                comprehensive skills in software engineering with a strong emphasis on web development. 
+                Our team is a multidisciplinary team that is constantly working, but also constantly training and updating itself with 
+                the aim of offering the client fully trained and experienced personnel when it comes to providing solutions. 
+                  
             </p>
             <p>
-                My education
-                has equipped me with proficiency in JavaScript, C#, GitHub, and MySQL, among other technologies
-                essential for a career in software development. 
+                We have construction professionals, architects, bricklayers, electricians, plumbers, blacksmiths, painters, etc.
             </p>
             <p>    
-                Additionally, I have earned certificates in computer
-                programming and computer support, which further enhance my technical expertise. 
+                A whole team at the client's disposal through our company. 
             </p>
             <p>
-                I am also studying for a Bachelor in English at Universidad de Panamá, enriching my communication 
-                skills and broadening my educational background.
+                
             </p>
         `;
-        education.innerHTML = educationContent;
+        team.innerHTML = teamContent;
     }
 });

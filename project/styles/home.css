@@ -122,8 +122,8 @@
     margin-bottom: 10px;
 }
 
-.about-myself p,
-.education p {
+.about-business p,
+.team p {
     text-align: left;
     font-size: 1.3rem;
     margin-bottom: 15px;
@@ -131,14 +131,14 @@
 }
 
 
-.about-myself {
+.about-business {
     padding: 20px;
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.education {
+.team {
     padding: 20px;
     background-color: #ffffff;
     border-radius: 5px;
@@ -154,7 +154,7 @@
 }
 
 
-.tool-box {
+.app-box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,13 +163,13 @@
     padding: 20px;
 }
 
-.tools-icon {
+.apps-icon {
     width: auto;
     height: 80px;
     transition: transform 0.3s ease;
 }
 
-.tools-icon:hover {
+.apps-icon:hover {
     transform: scale(1.1);
 }
 

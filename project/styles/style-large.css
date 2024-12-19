@@ -34,8 +34,8 @@
         gap: 20px;
     }
 
-    .about-myself,
-    .education,
+    .about-business,
+    .team,
     .skills {
         grid-column: span 1;
     }
